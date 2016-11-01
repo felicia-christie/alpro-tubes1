@@ -3,7 +3,7 @@ package gameparty;
 /**
  * Created by feli- on 01/11/2016.
  */
-public class character {
+public class character implements Comparable{
     public int hp;
     public int str;
     public int def;
@@ -44,5 +44,10 @@ public class character {
                 "\nCost: " + cost +
                 "\nTotal Stat: " + (hp + def + str) + "\n"
         );
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        return totalStat() - ((character) o).totalStat() ;
     }
 }

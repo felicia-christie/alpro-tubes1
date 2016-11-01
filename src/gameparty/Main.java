@@ -53,6 +53,8 @@ public class Main {
                 BT.backtrackProcessInit();
                 long dist = System.currentTimeMillis() - timeMil;
                 System.out.println("===== Total time: " + dist + "ms =====");
+            } else if (algo.contentEquals("BB")){
+
             }
         } catch (Exception e) {
             e.printStackTrace();

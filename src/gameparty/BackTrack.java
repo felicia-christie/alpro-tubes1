@@ -9,8 +9,6 @@ import java.util.Stack;
 public class BackTrack {
     // Heuristik: Menyerupai kasus knapsack problem, sehingga perhitungan Value (keuntungan) dilakukan dengan mengambil
     // status yang paling tinggi.
-
-    public ArrayList<character> answerSet = new ArrayList<character>();
     public ArrayList<character> allChar = new ArrayList<character>();
     public int totalStat;
     public int maxCost;
@@ -29,7 +27,6 @@ public class BackTrack {
         // define root
         int curMinCost = 999;
         int curMaxVal = 0;
-        int[] takenIdx = new int[]{};
         // dfs over nodes by looping
         for (int level = 0; level < allChar.size(); level++){
             if (countCosts(new int[]{level}) <= maxCost) {
@@ -44,7 +41,7 @@ public class BackTrack {
                                             if (countCosts(new int[]{level, level2, level3, level4, level5}) <= maxCost
                                                     && countStat(new int[]{level, level2, level3, level4, level5}) > curMaxVal) {
                                                 curMaxVal = countStat(new int[]{level, level2, level3, level4, level5});
-                                                takenIdx = new int[]{level, level2, level3, level4, level5};
+                                                answerIdxSet = new int[]{level, level2, level3, level4, level5};
                                             }
 
                                         }
@@ -57,12 +54,11 @@ public class BackTrack {
             }
         }
 
-        for(int i : takenIdx){
+        for(int i : answerIdxSet){
             System.out.println(allChar.get(i).toString() + "\n");
         }
-        System.out.println("Total Cost: " + countCosts(takenIdx));
-        System.out.println("Total Stat: " + countStat(takenIdx));
-
+        System.out.println("Total Cost: " + countCosts(answerIdxSet));
+        System.out.println("Total Stat: " + countStat(answerIdxSet));
     }
 
     public int countCosts (int[] idx){
