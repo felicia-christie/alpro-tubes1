@@ -8,21 +8,30 @@ public class character {
     public int str;
     public int def;
     public int cost;
-    public double profit;
     public String name;
+    public int profitHeuristic;
 
     public character(){
         hp = 0; str = 0; cost = 0;
         def = 0; name = "unknown";
+        profitHeuristic = 0;
     }
 
     public character(int new_hp, int new_str, int new_def, int new_cost, String new_name){
         hp = new_hp; str = new_str; cost = new_cost;
         def = new_def; name = new_name;
-        profit = (hp + def + str) / cost;
+        profitHeuristic = 0;
     }
 
     public int totalStat(){
+        if (profitHeuristic == 0) {
+            return hp + def + str;
+        } else if (profitHeuristic == 1){
+            return hp;
+        } else if (profitHeuristic == 2){
+            return str;
+        }
+
         return hp + def + str;
     }
 

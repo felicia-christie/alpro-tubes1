@@ -1,37 +1,40 @@
-====== RESULT ======
-- Party Member: 
-o) Name: Imka
+Name: Imka
 HP: 8855
 STR: 8900
 Cost: 24
 Total Stat: 17755
 
-o) Name: Yuuri
+
+Name: Yuuri
 HP: 3700
 STR: 3700
 Cost: 0
 Total Stat: 7400
 
-o) Name: Faceless
+
+Name: Faceless
 HP: 2790
 STR: 4560
 Cost: 8
 Total Stat: 7350
 
-o) Name: Slay
+
+Name: Slay
 HP: 5580
 STR: 5080
 Cost: 8
 Total Stat: 10660
 
-o) Name: Haruaki
+
+Name: Haruaki
 HP: 6500
 STR: 7300
 Cost: 18
 Total Stat: 13800
 
-- Max Stat: 56965
-- Total Cost: 58
-===== Total time: 1ms
+
+Total Cost: 58
+Total Stat: 56965
+===== Total time: 1ms =====
 
 Process finished with exit code 0

@@ -7,20 +7,20 @@ import org.json.simple.parser.JSONParser;
 import java.io.FileInputStream;
 import java.io.FileReader;
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.StringTokenizer;
 
 public class Main {
 
     public static void main(String[] args) {
         JSONParser parser = new JSONParser();
-
+        String algo = "BT";
         try {
 
             // 1. Read Input
+//            Object obj = parser.parse(new FileReader(
+//                    "party-example.json"));
             Object obj = parser.parse(new FileReader(
-                    "party-example.json"));
+                    "generated-75.json"));
 
             JSONObject jsonObject = (JSONObject) obj;
             JSONArray chara = (JSONArray) jsonObject.get("characters");
@@ -41,11 +41,19 @@ public class Main {
             // 3. Choose Algorithm
 
             //BF
-            BruteForce BF = new BruteForce(charStats, maxcost, maxppl);
-            long timeMil = System.currentTimeMillis();
-            BF.getCombi();
-            long dist = System.currentTimeMillis() - timeMil;
-            System.out.println("===== Total time: " + dist + "ms");
+            if (algo.contentEquals("BF")) {
+                BruteForce BF = new BruteForce(charStats, maxcost, maxppl);
+                long timeMil = System.currentTimeMillis();
+                BF.getCombi();
+                long dist = System.currentTimeMillis() - timeMil;
+                System.out.println("===== Total time: " + dist + "ms =====");
+            } else if (algo.contentEquals("BT")){
+                BackTrack BT = new BackTrack(charStats, maxcost, maxppl);
+                long timeMil = System.currentTimeMillis();
+                BT.backtrackProcessInit();
+                long dist = System.currentTimeMillis() - timeMil;
+                System.out.println("===== Total time: " + dist + "ms =====");
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }
