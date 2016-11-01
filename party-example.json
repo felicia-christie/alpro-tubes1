@@ -1,0 +1,56 @@
+{
+  "characters": [
+    {"name": "Marina",
+      "hp": 3400,
+      "str": 4900,
+      "cost": 10
+    },
+    {"name": "Melvina",
+      "hp": 4700,
+      "str": 6000,
+      "cost": 12
+    },
+    {"name": "Imka",
+      "hp": 8855,
+      "str": 8900,
+      "cost": 24
+    },
+    {"name": "Yuuri",
+      "hp": 3700,
+      "str": 3700,
+      "cost": 0
+    },
+    {"name": "Io",
+      "hp": 4000,
+      "str": 4000,
+      "cost": 12
+    },
+    {"name": "Faceless",
+      "hp": 2790,
+      "str": 4560,
+      "cost": 8
+    },
+    {"name": "Slay",
+      "hp": 5580,
+      "str": 5080,
+      "cost": 8
+    },
+    {"name": "Haruaki",
+      "hp": 6500,
+      "str": 7300,
+      "cost": 18
+    },
+    {"name": "Touka",
+      "hp": 6400,
+      "str": 7200,
+      "cost": 18
+    },
+    {"name": "Rafalgar",
+      "hp": 4800,
+      "str": 4500,
+      "cost": 22
+    }
+  ],
+  "max-cost": 50,
+  "max-people": 5
+}
