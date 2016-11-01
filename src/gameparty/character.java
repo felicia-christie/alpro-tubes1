@@ -25,7 +25,9 @@ public class character implements Comparable{
 
     public int totalStat(){
         if (profitHeuristic == 0) {
-            return hp + def + str;
+            if (cost == 0)
+                return 99;
+            return (hp + def + str)/cost;
         } else if (profitHeuristic == 1){
             return hp;
         } else if (profitHeuristic == 2){

@@ -13,14 +13,14 @@ public class Main {
 
     public static void main(String[] args) {
         JSONParser parser = new JSONParser();
-        String algo = "BT";
+        String algo = "BB";
         try {
 
             // 1. Read Input
 //            Object obj = parser.parse(new FileReader(
 //                    "party-example.json"));
             Object obj = parser.parse(new FileReader(
-                    "generated-75.json"));
+                    "generated-50.json"));
 
             JSONObject jsonObject = (JSONObject) obj;
             JSONArray chara = (JSONArray) jsonObject.get("characters");
@@ -54,6 +54,11 @@ public class Main {
                 long dist = System.currentTimeMillis() - timeMil;
                 System.out.println("===== Total time: " + dist + "ms =====");
             } else if (algo.contentEquals("BB")){
+                BranchBound BB = new BranchBound(charStats, maxcost, maxppl);
+                long timeMil = System.currentTimeMillis();
+                BB.processBB();
+                long dist = System.currentTimeMillis() - timeMil;
+                System.out.println("===== Total time: " + dist + "ms =====");
 
             }
         } catch (Exception e) {

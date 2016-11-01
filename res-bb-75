@@ -1,0 +1,44 @@
+Passed: Crystal -> Mays
+Passed: Mays -> Crystal -> Carly
+Passed: Carly -> Mays -> Crystal -> Marlene
+Passed: Marlene -> Carly -> Mays -> Crystal -> Donaldson
+Passed: Donaldson -> Marlene -> Carly -> Mays -> Crystal -> Curry
+Name: Curry
+HP: 4009
+STR: 6026
+Cost: 8
+Total Stat: 10035
+
+Name: Donaldson
+HP: 5413
+STR: 4926
+Cost: 8
+Total Stat: 10339
+
+Name: Marlene
+HP: 6611
+STR: 5131
+Cost: 9
+Total Stat: 11742
+
+Name: Carly
+HP: 5153
+STR: 6894
+Cost: 9
+Total Stat: 12047
+
+Name: Mays
+HP: 6422
+STR: 6269
+Cost: 9
+Total Stat: 12691
+
+Name: Crystal
+HP: 5704
+STR: 5737
+Cost: 8
+Total Stat: 11441
+
+Total cost: 51
+Total stat: 8028
+===== Total time: 9ms =====

@@ -1,0 +1,46 @@
+Passed: Tracie -> Benjamin
+Passed: Benjamin -> Tracie -> Arline
+Passed: Arline -> Benjamin -> Tracie -> Hogan
+Passed: Hogan -> Arline -> Benjamin -> Tracie -> Rosemarie
+Passed: Rosemarie -> Hogan -> Arline -> Benjamin -> Tracie -> Bobbie
+Name: Bobbie
+HP: 6488
+STR: 4590
+Cost: 9
+Total Stat: 11078
+
+Name: Rosemarie
+HP: 5253
+STR: 5067
+Cost: 8
+Total Stat: 10320
+
+Name: Hogan
+HP: 6327
+STR: 6616
+Cost: 10
+Total Stat: 12943
+
+Name: Arline
+HP: 6074
+STR: 5634
+Cost: 9
+Total Stat: 11708
+
+Name: Benjamin
+HP: 6874
+STR: 4351
+Cost: 8
+Total Stat: 11225
+
+Name: Tracie
+HP: 5320
+STR: 6271
+Cost: 8
+Total Stat: 11591
+
+Total cost: 52
+Total stat: 7965
+===== Total time: 9ms =====
+
+Process finished with exit code 0

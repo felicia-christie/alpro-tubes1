@@ -45,9 +45,23 @@ public class bnbNode implements Comparable {
         ArrayList<bnbNode> curPar = new ArrayList<bnbNode>();
         curPar.addAll(parentNodes);
         boolean hasParent = true;
-//        while (hasParent){
-//
-//        }
+        while (hasParent){
+            for (bnbNode par : curPar){
+
+            }
+        }
+        return temp;
+    }
+
+    @Override
+
+    public String toString(){
+        String temp = "";
+        for (bnbNode parentNode : parentNodes){
+            temp += parentNode.nodeChar.name + " -> ";
+        }
+        temp += nodeChar.name;
+
         return temp;
     }
 }
