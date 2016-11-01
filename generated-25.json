@@ -1,0 +1,156 @@
+{
+  "characters": [
+    {
+      "name": "Tina",
+      "hp": 6375,
+      "str": 6240,
+      "cost": 12
+    },
+    {
+      "name": "Wells",
+      "hp": 4916,
+      "str": 4555,
+      "cost": 18
+    },
+    {
+      "name": "Boone",
+      "hp": 5713,
+      "str": 6498,
+      "cost": 10
+    },
+    {
+      "name": "Nadine",
+      "hp": 4980,
+      "str": 4850,
+      "cost": 20
+    },
+    {
+      "name": "Brianna",
+      "hp": 6089,
+      "str": 6778,
+      "cost": 10
+    },
+    {
+      "name": "Cain",
+      "hp": 4563,
+      "str": 6034,
+      "cost": 14
+    },
+    {
+      "name": "Patsy",
+      "hp": 5592,
+      "str": 6894,
+      "cost": 12
+    },
+    {
+      "name": "Helena",
+      "hp": 4152,
+      "str": 4281,
+      "cost": 15
+    },
+    {
+      "name": "Meadows",
+      "hp": 6644,
+      "str": 4058,
+      "cost": 18
+    },
+    {
+      "name": "Collier",
+      "hp": 3962,
+      "str": 4619,
+      "cost": 14
+    },
+    {
+      "name": "Carroll",
+      "hp": 5250,
+      "str": 5492,
+      "cost": 18
+    },
+    {
+      "name": "Kayla",
+      "hp": 5660,
+      "str": 6079,
+      "cost": 15
+    },
+    {
+      "name": "Sybil",
+      "hp": 4631,
+      "str": 4461,
+      "cost": 13
+    },
+    {
+      "name": "Cunningham",
+      "hp": 6597,
+      "str": 5362,
+      "cost": 18
+    },
+    {
+      "name": "Moody",
+      "hp": 5495,
+      "str": 5230,
+      "cost": 8
+    },
+    {
+      "name": "Mccoy",
+      "hp": 4843,
+      "str": 4295,
+      "cost": 19
+    },
+    {
+      "name": "Ramona",
+      "hp": 4767,
+      "str": 4370,
+      "cost": 10
+    },
+    {
+      "name": "Chambers",
+      "hp": 4154,
+      "str": 5966,
+      "cost": 14
+    },
+    {
+      "name": "Robyn",
+      "hp": 4541,
+      "str": 4539,
+      "cost": 12
+    },
+    {
+      "name": "Mills",
+      "hp": 5188,
+      "str": 5980,
+      "cost": 12
+    },
+    {
+      "name": "Marjorie",
+      "hp": 5453,
+      "str": 5084,
+      "cost": 17
+    },
+    {
+      "name": "Katina",
+      "hp": 4351,
+      "str": 5004,
+      "cost": 20
+    },
+    {
+      "name": "Odonnell",
+      "hp": 6357,
+      "str": 6826,
+      "cost": 8
+    },
+    {
+      "name": "Conner",
+      "hp": 5434,
+      "str": 5896,
+      "cost": 12
+    },
+    {
+      "name": "Lizzie",
+      "hp": 4441,
+      "str": 4245,
+      "cost": 10
+    }
+  ],
+  "max-cost": 52,
+  "max-people": 5
+}

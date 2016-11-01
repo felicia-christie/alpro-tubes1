@@ -1,0 +1,37 @@
+====== RESULT ======
+- Party Member: 
+o) Name: Beryl
+HP: 6977
+STR: 6783
+Cost: 12
+Total Stat: 13760
+
+o) Name: Luann
+HP: 6586
+STR: 6715
+Cost: 13
+Total Stat: 13301
+
+o) Name: Hogan
+HP: 6327
+STR: 6616
+Cost: 10
+Total Stat: 12943
+
+o) Name: Arline
+HP: 6074
+STR: 5634
+Cost: 9
+Total Stat: 11708
+
+o) Name: Aisha
+HP: 6993
+STR: 6430
+Cost: 14
+Total Stat: 13423
+
+- Max Stat: 65135
+- Total Cost: 58
+===== Total time: 201ms
+
+Process finished with exit code 0

@@ -1202,5 +1202,5 @@
     }
   ],
   "max-cost": 100,
-  "max-person": 6
+  "max-people": 5
 }

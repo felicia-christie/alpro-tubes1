@@ -76,14 +76,14 @@ public class BruteForce {
         } else {
             //print subsets for checking
 
-            for (int[] oneSub : subsets) {
-                int maxcount = 0;
-                for (int i : oneSub) {
-                    System.out.print(i + ", ");
-                    maxcount += allChar.get(i).totalStat();
-                }
-                System.out.println(maxcount);
-            }
+//            for (int[] oneSub : subsets) {
+//                int maxcount = 0;
+//                for (int i : oneSub) {
+//                    System.out.print(i + ", ");
+//                    maxcount += allChar.get(i).totalStat();
+//                }
+//                System.out.println(maxcount);
+//            }
 
             //print result
             System.out.println("====== RESULT ======");

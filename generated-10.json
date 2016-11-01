@@ -1,0 +1,66 @@
+{
+  "characters": [
+    {
+      "name": "Gonzales",
+      "hp": 5383,
+      "str": 4448,
+      "cost": 8
+    },
+    {
+      "name": "Raquel",
+      "hp": 6114,
+      "str": 4240,
+      "cost": 8
+    },
+    {
+      "name": "Goodman",
+      "hp": 4548,
+      "str": 5387,
+      "cost": 12
+    },
+    {
+      "name": "Paula",
+      "hp": 5485,
+      "str": 5586,
+      "cost": 10
+    },
+    {
+      "name": "Hendricks",
+      "hp": 5213,
+      "str": 4629,
+      "cost": 10
+    },
+    {
+      "name": "Dixon",
+      "hp": 6835,
+      "str": 4325,
+      "cost": 20
+    },
+    {
+      "name": "Hogan",
+      "hp": 5541,
+      "str": 5221,
+      "cost": 15
+    },
+    {
+      "name": "Howell",
+      "hp": 4429,
+      "str": 4291,
+      "cost": 9
+    },
+    {
+      "name": "Suzanne",
+      "hp": 6085,
+      "str": 6408,
+      "cost": 8
+    },
+    {
+      "name": "Giles",
+      "hp": 3992,
+      "str": 4439,
+      "cost": 17
+    }
+  ],
+  "max-cost": 70,
+  "max-people": 5
+}

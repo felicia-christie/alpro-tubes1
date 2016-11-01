@@ -32,7 +32,6 @@ public class Main {
                 charStats.add(new character( ((Long) tempChar.get("hp")).intValue() , ((Long) tempChar.get("str")).intValue(),
                         0, ((Long) tempChar.get("cost")).intValue(), (String) tempChar.get("name"))
                     );
-                System.out.println(charStats.get(i).toString());
             }
 
             // 2. Read Constraint
@@ -43,7 +42,10 @@ public class Main {
 
             //BF
             BruteForce BF = new BruteForce(charStats, maxcost, maxppl);
+            long timeMil = System.currentTimeMillis();
             BF.getCombi();
+            long dist = System.currentTimeMillis() - timeMil;
+            System.out.println("===== Total time: " + dist + "ms");
         } catch (Exception e) {
             e.printStackTrace();
         }
