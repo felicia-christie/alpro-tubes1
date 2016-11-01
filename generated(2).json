@@ -1,0 +1,606 @@
+{
+  "characters": [
+    {
+      "name": "Aida",
+      "hp": 5525,
+      "str": 6920,
+      "cost": 20
+    },
+    {
+      "name": "Sanders",
+      "hp": 3994,
+      "str": 4141,
+      "cost": 8
+    },
+    {
+      "name": "Heather",
+      "hp": 6440,
+      "str": 4112,
+      "cost": 8
+    },
+    {
+      "name": "Jacqueline",
+      "hp": 6248,
+      "str": 6008,
+      "cost": 13
+    },
+    {
+      "name": "Brenda",
+      "hp": 5835,
+      "str": 6886,
+      "cost": 12
+    },
+    {
+      "name": "Petty",
+      "hp": 6750,
+      "str": 6339,
+      "cost": 16
+    },
+    {
+      "name": "Dolores",
+      "hp": 5185,
+      "str": 4916,
+      "cost": 11
+    },
+    {
+      "name": "Mills",
+      "hp": 6080,
+      "str": 5764,
+      "cost": 18
+    },
+    {
+      "name": "Mccray",
+      "hp": 4368,
+      "str": 6962,
+      "cost": 8
+    },
+    {
+      "name": "Tamika",
+      "hp": 6215,
+      "str": 4435,
+      "cost": 18
+    },
+    {
+      "name": "Randolph",
+      "hp": 4429,
+      "str": 5508,
+      "cost": 19
+    },
+    {
+      "name": "Jolene",
+      "hp": 4600,
+      "str": 5197,
+      "cost": 20
+    },
+    {
+      "name": "Avery",
+      "hp": 5712,
+      "str": 5849,
+      "cost": 13
+    },
+    {
+      "name": "Mandy",
+      "hp": 6904,
+      "str": 5851,
+      "cost": 16
+    },
+    {
+      "name": "Holland",
+      "hp": 6243,
+      "str": 5000,
+      "cost": 18
+    },
+    {
+      "name": "Shaffer",
+      "hp": 6990,
+      "str": 3980,
+      "cost": 11
+    },
+    {
+      "name": "Lauren",
+      "hp": 4578,
+      "str": 4587,
+      "cost": 8
+    },
+    {
+      "name": "Thelma",
+      "hp": 6373,
+      "str": 4081,
+      "cost": 17
+    },
+    {
+      "name": "Inez",
+      "hp": 4618,
+      "str": 6350,
+      "cost": 19
+    },
+    {
+      "name": "Marta",
+      "hp": 4580,
+      "str": 4678,
+      "cost": 10
+    },
+    {
+      "name": "Kimberley",
+      "hp": 5608,
+      "str": 4792,
+      "cost": 19
+    },
+    {
+      "name": "Juliana",
+      "hp": 6403,
+      "str": 4557,
+      "cost": 15
+    },
+    {
+      "name": "Mcintyre",
+      "hp": 6752,
+      "str": 6968,
+      "cost": 11
+    },
+    {
+      "name": "Gwendolyn",
+      "hp": 5707,
+      "str": 6272,
+      "cost": 14
+    },
+    {
+      "name": "Daugherty",
+      "hp": 4655,
+      "str": 5703,
+      "cost": 13
+    },
+    {
+      "name": "Sheryl",
+      "hp": 6890,
+      "str": 6924,
+      "cost": 20
+    },
+    {
+      "name": "Bolton",
+      "hp": 4019,
+      "str": 4075,
+      "cost": 12
+    },
+    {
+      "name": "Nina",
+      "hp": 4546,
+      "str": 6035,
+      "cost": 12
+    },
+    {
+      "name": "Sonja",
+      "hp": 3969,
+      "str": 3986,
+      "cost": 18
+    },
+    {
+      "name": "Callahan",
+      "hp": 4126,
+      "str": 5340,
+      "cost": 15
+    },
+    {
+      "name": "Barnes",
+      "hp": 6980,
+      "str": 6391,
+      "cost": 17
+    },
+    {
+      "name": "Mack",
+      "hp": 4717,
+      "str": 6610,
+      "cost": 8
+    },
+    {
+      "name": "Wilder",
+      "hp": 5049,
+      "str": 6872,
+      "cost": 18
+    },
+    {
+      "name": "Ladonna",
+      "hp": 5978,
+      "str": 3993,
+      "cost": 17
+    },
+    {
+      "name": "Marsh",
+      "hp": 4808,
+      "str": 4938,
+      "cost": 9
+    },
+    {
+      "name": "Rodgers",
+      "hp": 5588,
+      "str": 6063,
+      "cost": 10
+    },
+    {
+      "name": "Savage",
+      "hp": 5097,
+      "str": 4421,
+      "cost": 15
+    },
+    {
+      "name": "Eleanor",
+      "hp": 4506,
+      "str": 6546,
+      "cost": 18
+    },
+    {
+      "name": "Alexandria",
+      "hp": 6223,
+      "str": 3929,
+      "cost": 18
+    },
+    {
+      "name": "Aurelia",
+      "hp": 6114,
+      "str": 5238,
+      "cost": 15
+    },
+    {
+      "name": "Bryan",
+      "hp": 4063,
+      "str": 6737,
+      "cost": 20
+    },
+    {
+      "name": "Mclean",
+      "hp": 6581,
+      "str": 5805,
+      "cost": 15
+    },
+    {
+      "name": "Adele",
+      "hp": 5710,
+      "str": 5380,
+      "cost": 19
+    },
+    {
+      "name": "Corrine",
+      "hp": 5700,
+      "str": 6421,
+      "cost": 18
+    },
+    {
+      "name": "Coffey",
+      "hp": 5759,
+      "str": 3914,
+      "cost": 15
+    },
+    {
+      "name": "Georgina",
+      "hp": 5602,
+      "str": 5687,
+      "cost": 20
+    },
+    {
+      "name": "Tamara",
+      "hp": 6291,
+      "str": 4412,
+      "cost": 11
+    },
+    {
+      "name": "Bernadine",
+      "hp": 4250,
+      "str": 4969,
+      "cost": 13
+    },
+    {
+      "name": "Marcia",
+      "hp": 5566,
+      "str": 6978,
+      "cost": 13
+    },
+    {
+      "name": "Margo",
+      "hp": 6931,
+      "str": 4499,
+      "cost": 19
+    },
+    {
+      "name": "Winifred",
+      "hp": 5990,
+      "str": 6927,
+      "cost": 20
+    },
+    {
+      "name": "Pauline",
+      "hp": 4731,
+      "str": 4769,
+      "cost": 15
+    },
+    {
+      "name": "Haley",
+      "hp": 6434,
+      "str": 4801,
+      "cost": 8
+    },
+    {
+      "name": "Noel",
+      "hp": 4840,
+      "str": 6736,
+      "cost": 17
+    },
+    {
+      "name": "Ivy",
+      "hp": 3906,
+      "str": 6785,
+      "cost": 11
+    },
+    {
+      "name": "Trisha",
+      "hp": 5320,
+      "str": 6972,
+      "cost": 10
+    },
+    {
+      "name": "Alisa",
+      "hp": 5016,
+      "str": 5563,
+      "cost": 13
+    },
+    {
+      "name": "Johanna",
+      "hp": 4299,
+      "str": 5454,
+      "cost": 13
+    },
+    {
+      "name": "Casey",
+      "hp": 4923,
+      "str": 6547,
+      "cost": 8
+    },
+    {
+      "name": "Mejia",
+      "hp": 5489,
+      "str": 6419,
+      "cost": 19
+    },
+    {
+      "name": "Tania",
+      "hp": 6726,
+      "str": 5301,
+      "cost": 10
+    },
+    {
+      "name": "Wilma",
+      "hp": 4675,
+      "str": 5184,
+      "cost": 10
+    },
+    {
+      "name": "Barbra",
+      "hp": 6927,
+      "str": 5312,
+      "cost": 16
+    },
+    {
+      "name": "Little",
+      "hp": 4659,
+      "str": 5281,
+      "cost": 14
+    },
+    {
+      "name": "Daniel",
+      "hp": 6180,
+      "str": 4766,
+      "cost": 17
+    },
+    {
+      "name": "Guthrie",
+      "hp": 5552,
+      "str": 5791,
+      "cost": 12
+    },
+    {
+      "name": "Knapp",
+      "hp": 4232,
+      "str": 6375,
+      "cost": 19
+    },
+    {
+      "name": "Lacy",
+      "hp": 6854,
+      "str": 6380,
+      "cost": 18
+    },
+    {
+      "name": "Santos",
+      "hp": 6155,
+      "str": 5050,
+      "cost": 12
+    },
+    {
+      "name": "Parrish",
+      "hp": 6152,
+      "str": 4004,
+      "cost": 10
+    },
+    {
+      "name": "Lynn",
+      "hp": 4262,
+      "str": 4960,
+      "cost": 20
+    },
+    {
+      "name": "Key",
+      "hp": 5487,
+      "str": 4363,
+      "cost": 9
+    },
+    {
+      "name": "Cheryl",
+      "hp": 4041,
+      "str": 6759,
+      "cost": 16
+    },
+    {
+      "name": "Carissa",
+      "hp": 4399,
+      "str": 4054,
+      "cost": 14
+    },
+    {
+      "name": "Blackburn",
+      "hp": 6887,
+      "str": 4039,
+      "cost": 18
+    },
+    {
+      "name": "Barber",
+      "hp": 6991,
+      "str": 4600,
+      "cost": 15
+    },
+    {
+      "name": "Dorthy",
+      "hp": 4977,
+      "str": 4087,
+      "cost": 13
+    },
+    {
+      "name": "Karla",
+      "hp": 6201,
+      "str": 6156,
+      "cost": 9
+    },
+    {
+      "name": "Kim",
+      "hp": 4537,
+      "str": 5514,
+      "cost": 12
+    },
+    {
+      "name": "Elvira",
+      "hp": 6667,
+      "str": 4994,
+      "cost": 10
+    },
+    {
+      "name": "Mueller",
+      "hp": 3938,
+      "str": 5524,
+      "cost": 15
+    },
+    {
+      "name": "Mann",
+      "hp": 4727,
+      "str": 5812,
+      "cost": 10
+    },
+    {
+      "name": "Odonnell",
+      "hp": 5555,
+      "str": 5284,
+      "cost": 17
+    },
+    {
+      "name": "Holman",
+      "hp": 6640,
+      "str": 4085,
+      "cost": 20
+    },
+    {
+      "name": "Cash",
+      "hp": 5202,
+      "str": 5797,
+      "cost": 14
+    },
+    {
+      "name": "Darcy",
+      "hp": 5988,
+      "str": 6949,
+      "cost": 12
+    },
+    {
+      "name": "Porter",
+      "hp": 5281,
+      "str": 4398,
+      "cost": 15
+    },
+    {
+      "name": "Sargent",
+      "hp": 5466,
+      "str": 3976,
+      "cost": 11
+    },
+    {
+      "name": "Ortiz",
+      "hp": 4153,
+      "str": 6778,
+      "cost": 16
+    },
+    {
+      "name": "Quinn",
+      "hp": 3939,
+      "str": 4637,
+      "cost": 13
+    },
+    {
+      "name": "Marisol",
+      "hp": 5763,
+      "str": 4855,
+      "cost": 16
+    },
+    {
+      "name": "Mullen",
+      "hp": 6364,
+      "str": 6222,
+      "cost": 11
+    },
+    {
+      "name": "Emerson",
+      "hp": 6497,
+      "str": 6079,
+      "cost": 12
+    },
+    {
+      "name": "Sherrie",
+      "hp": 4712,
+      "str": 6544,
+      "cost": 11
+    },
+    {
+      "name": "Sparks",
+      "hp": 4302,
+      "str": 5631,
+      "cost": 17
+    },
+    {
+      "name": "Bennett",
+      "hp": 5284,
+      "str": 6128,
+      "cost": 14
+    },
+    {
+      "name": "Cox",
+      "hp": 4427,
+      "str": 4765,
+      "cost": 16
+    },
+    {
+      "name": "Maldonado",
+      "hp": 6093,
+      "str": 4728,
+      "cost": 15
+    },
+    {
+      "name": "Gray",
+      "hp": 3916,
+      "str": 4877,
+      "cost": 15
+    },
+    {
+      "name": "Reva",
+      "hp": 5705,
+      "str": 6770,
+      "cost": 8
+    }
+  ],
+  "max-cost": 61,
+  "max-person": 6
+}

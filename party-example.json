@@ -10,6 +10,11 @@
       "str": 6000,
       "cost": 12
     },
+    {"name": "Touka",
+      "hp": 6400,
+      "str": 7200,
+      "cost": 18
+    },
     {"name": "Imka",
       "hp": 8855,
       "str": 8900,
@@ -40,17 +45,12 @@
       "str": 7300,
       "cost": 18
     },
-    {"name": "Touka",
-      "hp": 6400,
-      "str": 7200,
-      "cost": 18
-    },
     {"name": "Rafalgar",
       "hp": 4800,
       "str": 4500,
       "cost": 22
     }
   ],
-  "max-cost": 50,
+  "max-cost": 59,
   "max-people": 5
 }

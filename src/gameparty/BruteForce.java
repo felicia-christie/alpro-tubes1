@@ -50,34 +50,25 @@ public class BruteForce {
                     for (++i; i < k; i++) {    // fill up remaining items
                         s[i] = s[i - 1] + 1;
                     }
-                    // limit total cost
-                    int[] tempRes = getSubset(input, s);
-                    int tempCost = 0;
-                    int tempStats = 0;
-                    for(int resX: tempRes){
-                        tempCost += allChar.get(resX).cost;
-                        tempStats += allChar.get(resX).totalStat();
-                    }
-                    if (tempCost <= maxCost) {
-                        subsets.add(getSubset(input, s));
-                        if (tempStats > totalStat){
-                            totalStat = tempStats;
-                            answerIdxSet = getSubset(input, s);
-                        }
-                    }
+                    subsets.add(getSubset(input, s));
                 }
             }
 
-            // check with first id
-            int firstStat = 0;
-            for(int id = 0; id < k; id ++){
-                firstStat += allChar.get(id).totalStat();
+            // limit total cost + get max
+            for (int[] tempRes : subsets) {
+                int tempCost = 0;
+                int tempStats = 0;
+                for (int resX : tempRes) {
+                    tempCost += allChar.get(resX).cost;
+                    tempStats += allChar.get(resX).totalStat();
+                }
+                if (tempCost <= maxCost) {
+                    if (tempStats > totalStat) {
+                        totalStat = tempStats;
+                        answerIdxSet = tempRes;
+                    }
+                }
             }
-            if (firstStat > totalStat){
-                totalStat = firstStat;
-                answerIdxSet = new int[]{0, 1, 2, 3, 4};
-            }
-
         }
         if (subsets.size() == 0){
             System.out.println("Semua masukan masuk dalam kombinasi akhir!");
@@ -97,11 +88,14 @@ public class BruteForce {
             //print result
             System.out.println("====== RESULT ======");
             System.out.println("- Party Member: ");
+            int globalCost = 0;
             for (int ansIdx : answerIdxSet) {
                 System.out.print("o) ");
                 System.out.println(allChar.get(ansIdx).toString());
+                globalCost += allChar.get(ansIdx).cost;
             }
             System.out.println("- Max Stat: " + totalStat);
+            System.out.println("- Total Cost: " + globalCost);
             return subsets;
         }
     }
