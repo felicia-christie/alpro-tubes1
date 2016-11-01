@@ -8,6 +8,7 @@ public class character {
     public int str;
     public int def;
     public int cost;
+    public double profit;
     public String name;
 
     public character(){
@@ -18,6 +19,7 @@ public class character {
     public character(int new_hp, int new_str, int new_def, int new_cost, String new_name){
         hp = new_hp; str = new_str; cost = new_cost;
         def = new_def; name = new_name;
+        profit = (hp + def + str) / cost;
     }
 
     public int totalStat(){
